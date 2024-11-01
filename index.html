@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top bg-success text-white">
+    <nav class="navbar navbar-expand-lg sticky-top text-white" style="background-color: #2e483a" >
 
-      <div class="container-fluid">
+      <div class="container mx-auto">
           <a class="navbar-brand" href="#">
               <img src="images/daily-dish-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
               Daily Dish
@@ -48,15 +48,17 @@
     <main>
 
       <section id="hero">
-        <div class="px-4 my-5 text-center"> 
+        <section id="hero-content">
+        <div class="text-center"> 
           <h2>Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h2>
             <div class="col-lg-6 mx-auto">
               <p class="lead">With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery shopping, or cleanup.</p>
                 <div class="d-grip d-sm-flex justify-content-sm-center">
-                  <button class="btn btn-primary btn-lg px-4" type="button">Get Started Today and Save Time!</button>
+                  <button type="button" class="btn btn-primary btn-lg px-4" type="button">Get Started Today and Save Time!</button>
               </div>
             </div>
           </div>
+        </section>
       </section>
 
       <section>
@@ -86,7 +88,7 @@
               <p>Our easy-to-follow recipes mean you’ll have a mouthwatering, home-cooked meal ready in under 30 minutes—no kitchen skills required!</p>
             </div>
           </div>
-          <button class="btn btn-primary">Pick Your Plan</button>
+          <button type ="button" class="btn btn-primary">Pick Your Plan</button>
         </div>
       </section>
       
@@ -135,7 +137,7 @@
 
 
       <section>
-        <div class="bg-primary">
+        <div class="text-white" style="background-color: #2e483a">
           <div>
             <h2>What Our Customers Are Saying</h2>
 
@@ -181,8 +183,8 @@
       </section>
 
 
-      <section>
-        <div class="px-4 my-5 text-center">
+      <section id="carousel">
+        <div class="px-4 my-5 mx-5 text-center">
           <div>
             <h2>Questions? We Have Answers</h2>
             <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -223,6 +225,7 @@
 
 
       <section id="cta">
+        <section id="cta-content">
         <div>
           <div class="px-4 my-5 mx-auto p-2 text-center">
             <h2>Join Thousands of Time-Savers – Start Eating Better Today!</h2>
@@ -230,25 +233,25 @@
           </div>
         </div>
       </section>
+      </section>
 
     </main>
 
 
     
     <footer>
-      <div class="card-footer">
-        <div>
-          <div>
+      <div class="text-white py-3" style="background-color: #2e483a">
+        <div class="container">
             <a href="/">
               <img src="images/daily-dish-logo.svg" alt="Logo" width="35" height="auto">
             </a>
             <span>&copy; 2024 Company, Inc</span>
-          </div>
-      
-          <ul>
-            <li><a href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a></li>
-            <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo" width="35" height="auto"></a></li>
+          <div class="py-7">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a></li>
+            <li class="list-inline-item"><a href="#"><img src="images/facebook.svg" alt="Facebook logo" width="35" height="auto"></a></li>
           </ul>
+        </div>
         </div>    
       </div>
     </footer>

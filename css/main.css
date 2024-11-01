@@ -3,12 +3,28 @@
 /* Set custom variables here */
 
 :root {
-  --primary-color: #2e483a;
+  --primary: #2e483a;
   --body-bg: #F6F3ED;
   --light: #f6f3ed;
+  --bs-btn-bg: #2e483a;
+  --bs-primary:  #2e483a;
+  --bg-primary:  #2e483a;
 }
 
+.btn-primary {
+  background-color: #2e483a;
+  color: white;
+  border: 0px;
+}
 
+.btn-primary:hover {
+  background-color: #1b2922;
+
+}
+
+#nav {
+  color: white;
+}
 
 .navbar-brand {
   color: #F6F3ED;
@@ -22,6 +38,9 @@ h1, h2, h3 {
   font-family: "Merriweather", serif;
 }
 
+.bg-primary {
+  background-color: #2e483a;
+}
 
 #hero {
   height: 800px;
@@ -32,18 +51,34 @@ h1, h2, h3 {
   background-size: cover;
 }
 
+#carousel {
+  background-color: white;
+  border-color: #2e483a;
+}
+
+#hero-content {
+  position: absolute;
+  top: 40%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
 #hero .d-flex {
   height: 800px;
 }
 
 #cta {
+  display: flex;
   height: 700px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: #F6F3ED;
+  justify-content: center;
+  align-content: center;
 }
+
 
 #cta .d-flex {
   height: 400px;
